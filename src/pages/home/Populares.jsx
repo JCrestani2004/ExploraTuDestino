@@ -62,13 +62,14 @@ const Populares = () => {
 
   return (
     <>
-      {" "}
-      <div className="mb-5">
+      
+      <div className="mb-5 container">
         <span className="text-primary fw-bold text-uppercase small">
           Tendencias
         </span>
         <h2 className="display-6 fw-bold">Paises Populares</h2>
       </div>
+      <div>
       <div className="d-flex justify-content-between mb-5">
         <div className="d-flex gap-2">
           <button
@@ -93,7 +94,7 @@ const Populares = () => {
           </button>
         </div>
       </div>
-
+        </div>
     </>
   );
 };

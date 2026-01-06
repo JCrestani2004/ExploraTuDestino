@@ -26,11 +26,6 @@ const CountryCard = ({ country }) => {
             Capital: {country.capital ? country.capital[0] : "N/A"}
           </p>
         </div>
-        <div className="card-footer">
-          <a href="#" className="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
       </div>
       </Link>
     </div>
